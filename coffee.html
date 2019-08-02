@@ -59,10 +59,18 @@
     coffeeImage.setAttribute('src', 'static/coffee_beans.jpg');
 
     function makeCoffee(){
-        coffeeImage.setAttribute('src', 'static/coffee_mug.jpg');
+        coffeeImage.setAttribute('src', 'static/coffee_machine.jpg');
+        
+
     }
 
+    function mug () {coffeeImage.setAttribute('src', 'static/coffee_mug.jpg')}
+
+    function changePics() { setTimeout(setTimeout(setTimeout(makeCoffee), ), 1500), 2500);}
+
     coffeeImage.addEventListener('click', makeCoffee);
+
+
 
     // const revenueMessage;
 
